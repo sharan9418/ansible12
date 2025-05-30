@@ -5,7 +5,7 @@
     - name: Copy WAR file to Tomcat
       copy:
         src: "/Users/sharanak/.jenkins/workspace/ansible/target/MyAnsibleApp01.war"
-        dest: "/opt/tomcat/webapps/MyAnsibleApp01.war"
+        dest: "/opt/homebrew/bin/ansible-playbook"
         remote_src: no
 
     - name: Restart Tomcat
